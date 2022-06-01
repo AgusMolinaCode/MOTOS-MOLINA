@@ -185,12 +185,15 @@ a{
 .collection {
     width: 850px;
     height: 500px;
-    margin: auto;
+    margin:25px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 65px;
     gap: 15px;
+}
+
+#nuevo{
+    border-radius: 25px;
 }
 
 .CA:hover{
