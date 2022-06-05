@@ -47,30 +47,6 @@ body{
     height: 80px;
 }
 
-{
-  display: flex;
-  margin: 0 45px;
-  font-size: 25px;
-  font-family: 'Ipad 25', sans-serif;
-  font-style: oblique;
-}
-
-
-{
-    display: flex;
-    justify-content:space-around;
-    margin-bottom: 0;
-    padding-left: 0;
-
-}
-
-{
-    padding-top:  20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
 .nav__hover:hover{
     background-color: transparent;
     color: black;
@@ -155,9 +131,15 @@ body{
     width: 100%;
 }
 
-a{
+.nav-link{
     text-decoration: none;
-    color:rgb(253, 253, 253);
+    color:white;
+    font-family: 'Ipad 25', sans-serif;
+    font-size: 28px;
+}
+
+.navbar{
+    margin: 15px auto;
 }
 
 .footer {
@@ -191,7 +173,6 @@ a{
 
 .collection {
     width: 69%;
-  
     margin:25px auto;
     display: flex;
     flex-wrap: wrap;
@@ -403,21 +384,17 @@ h4{
     font-family: 'Gogh', sans-serif;
 }
 
-.button__contacto{
-    ;
-}
-
 
 textarea{
     background-color: #fbfbfb; 
-    width: 414px; 
+    width: 407px; 
     height: 150px; 
     border-radius: 5px;  
     border-style: solid; 
     border-width: 2px; 
     border-color: 2px solid #27439f; 
     margin-top: 10px;  
-    margin-left: 69px;
+    margin-left: 10px;
     margin-bottom: 20px; 
     padding-top: 15px; 
 }
@@ -440,7 +417,8 @@ input{
     padding-left: 5px;
     padding-right: 5px;   
     margin-bottom: 20px; 
-    margin-top: 10px;   
+    margin-top: 10px; 
+    margin-left: 65px;  
     background-color: #b2a6f5; 
     border-color: #3c42af; 
     border-style: solid; 
@@ -469,7 +447,7 @@ input{
 }
 
 .form-control{
-    width: 75%;
+    width: 95%;
 }
 
 
@@ -486,17 +464,17 @@ input{
 }
 
 .carousel-control-prev{
-    top:50vh;
+    top:10vh;
 }
 
 .carousel-control-prev-icon{
     height: 4rem;
     width: 4rem;
-    position: relative;
+    
 }
 
 .carousel-control-next{
-    top:50vh;
+    top:10vh;
 }
 
 .carousel-control-next-icon{
@@ -579,10 +557,6 @@ input{
 }
 
 @media screen and (max-width: 833px){
-    { 
-        flex-direction: column;
-        align-items: center;
-        }
 
     .hero__main{
             grid-template-columns: 1fr;
@@ -604,11 +578,11 @@ input{
         }
         
     .carousel-control-prev{
-            top:30vh;
+            top:20vh;
         }
         
     .carousel-control-next{
-            top:30vh;
+            top:20vh;
         }    
     
     .form-control{
@@ -657,11 +631,11 @@ input{
     textarea{
         width: 310px; 
         height: 150px; 
-        margin-left: 1%;
+        margin-left: 0%;
     }
 
     #button1{
-        margin-left: 1%;
+        margin-left: 3%;
 
     }
     
@@ -695,7 +669,7 @@ input{
     } 
 
     .form-control{
-        width: 55%;
+        width: 100%;
     } 
 
 
