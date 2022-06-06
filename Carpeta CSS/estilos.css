@@ -172,7 +172,7 @@ body{
 }
 
 .collection {
-    width: 69%;
+    width: 52%;
     margin:25px auto;
     display: flex;
     flex-wrap: wrap;
@@ -464,7 +464,7 @@ input{
 }
 
 .carousel-control-prev{
-    top:10vh;
+    top:10px;
 }
 
 .carousel-control-prev-icon{
@@ -474,12 +474,32 @@ input{
 }
 
 .carousel-control-next{
-    top:10vh;
+    top:10px;
 }
 
 .carousel-control-next-icon{
     height: 4rem;
     width: 4rem;
+}
+
+#carouselExampleControls{
+    margin: auto 120px;
+}
+
+.carousel-inner{
+    border-radius: 50px;
+}
+
+.card-boot2{
+    margin: 25px 40px;
+}
+
+.card-boot1{
+    margin: 10px 30px;
+}
+
+.card{
+    background-color: #d0ebbc;
 }
 
 
@@ -526,6 +546,10 @@ input{
         margin-right: 45px;
         
     } 
+
+    #carouselExampleControls{
+        margin: auto;
+    }
 
     
 
@@ -578,11 +602,11 @@ input{
         }
         
     .carousel-control-prev{
-            top:20vh;
+            top:10px;
         }
         
     .carousel-control-next{
-            top:20vh;
+            top:10px;
         }    
     
     .form-control{
@@ -661,11 +685,11 @@ input{
     }
 
     .carousel-control-prev{
-        top:20vh;
+        top:10px;
     }
     
     .carousel-control-next{
-        top:20vh;
+        top:10px;
     } 
 
     .form-control{
