@@ -28,29 +28,36 @@ body{
     overflow: hidden;
 }
 
-.NOSOTROS{
-    border-top: 2px solid rgb(5, 34, 139);
-    border-bottom: 2px solid rgb(5, 34, 139);
-    text-align: center;
-    padding: 8px;
-    transition: 1.2s;
+//comienza anidacion
+
+.NOS{
+    .NOSOTROS{
+        border-top: 2px solid rgb(5, 34, 139);
+        border-bottom: 2px solid rgb(5, 34, 139);
+        text-align: center;
+        padding: 8px;
+        transition: 1.2s;
+    }
+
+    .NOSOTROS:hover{
+        border-radius: 40px;
+        padding: 8px;
+        border-style: solid;
+        transition: 1.2s;
+    }
+    
+    .p__nosotros{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Concert One', cursive;
+        margin-top: 50px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
 
-.NOSOTROS:hover{
-    border-radius: 40px;
-    padding: 8px;
-    border-style: solid;
-    transition: 1.2s;
-}
+//termina anidacion
 
-.p__nosotros{
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Concert One', cursive;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
 
 .logo__nav{
     height: 75px;
