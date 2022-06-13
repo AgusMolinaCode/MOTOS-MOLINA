@@ -1,0 +1,40 @@
+@import "../Variables";
+
+.slide{
+    top: $top30;
+}
+
+.slide img{
+    height: $H100;
+}
+
+.carousel{
+
+    &-control-prev{
+        top:$top;
+    }
+
+    &-control-prev-icon{
+        height: $H4r;
+        width: $H4r;
+        
+    }
+
+    &-control-next{
+        top:$top;
+    }
+
+    &-control-next-icon{
+        height: $H4r;
+        width: $H4r;
+    }
+
+    #carouselExampleControls{
+        margin: auto 150px;
+    }
+
+    &-inner{
+        border-radius: 50px;
+    }
+
+}

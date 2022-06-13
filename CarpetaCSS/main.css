@@ -11,6 +11,7 @@ body {
 }
 
 /* COMIENZA INDEX / NAV / FOOTER */
+/*COMIENZA VIDEO*/
 .NAV_PADRE {
   position: relative;
 }
@@ -27,6 +28,8 @@ body {
   overflow: hidden;
 }
 
+/* TERMINA VIDEO */
+/* COMIENZA NOSOTROS */
 .NOS_NOSOTROS {
   border-top: 2px solid #05228b;
   border-bottom: 2px solid #05228b;
@@ -51,6 +54,43 @@ body {
   margin-right: 150px;
 }
 
+/* TERMINA NOSOTROS */
+/*COMIENZA BOOTSTRAP CAROUSEL*/
+.slide {
+  top: 30px;
+}
+
+.slide img {
+  height: 100vh;
+}
+
+.carousel-control-prev {
+  top: 10px;
+}
+
+.carousel-control-prev-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.carousel-control-next {
+  top: 10px;
+}
+
+.carousel-control-next-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.carousel #carouselExampleControls {
+  margin: auto 150px;
+}
+
+.carousel-inner {
+  border-radius: 50px;
+}
+
+/*TERMINA BOOTSTRAP CAROUSEL*/
 .logo__nav {
   height: 75px;
   transition: 0.8s;
@@ -152,7 +192,7 @@ body {
 }
 
 .navbar {
-  margin: 15px auto;
+  margin: 0px auto;
 }
 
 .footer {
@@ -439,41 +479,6 @@ input {
 }
 
 /*TERMINA CONTACTO*/
-/*COMIENZA BOOTSTRAP*/
-.slide {
-  top: 35px;
-}
-
-.slide img {
-  height: 100vh;
-}
-
-.carousel-control-prev {
-  top: 10px;
-}
-
-.carousel-control-prev-icon {
-  height: 4rem;
-  width: 4rem;
-}
-
-.carousel-control-next {
-  top: 10px;
-}
-
-.carousel-control-next-icon {
-  height: 4rem;
-  width: 4rem;
-}
-
-#carouselExampleControls {
-  margin: auto 120px;
-}
-
-.carousel-inner {
-  border-radius: 50px;
-}
-
 .card-boot2 {
   margin: 35px 80px;
 }
@@ -495,7 +500,6 @@ h5 {
   left: -12px;
 }
 
-/*TERMINA BOOTSTRAP*/
 @media screen and (max-width: 1024px) {
   .main__imagen {
     width: 300px;
@@ -531,7 +535,7 @@ h5 {
     margin-right: 45px;
   }
   #carouselExampleControls {
-    margin: auto;
+    margin: auto 100px;
   }
   .img_prox2 {
     padding: 3px;
@@ -568,6 +572,7 @@ h5 {
   }
   .slide img {
     height: 70vh;
+    width: 100vw;
   }
   .carousel-control-prev {
     top: 10px;
@@ -581,10 +586,13 @@ h5 {
   h5 {
     font-size: 25px;
   }
+  #carouselExampleControls {
+    margin: auto 40px;
+  }
 }
 
 @media screen and (max-width: 653px) {
-  .p__nosotros {
+  .NOS__nosotros {
     text-align: center;
     font-size: 20px;
     font-family: 'Gogh', sans-serif;
@@ -649,6 +657,9 @@ h5 {
   }
   h5 {
     font-size: 18px;
+  }
+  .carousel #carouselExampleControls {
+    margin: auto 23px;
   }
 }
 /*# sourceMappingURL=main.css.map */

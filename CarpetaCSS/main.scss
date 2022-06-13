@@ -12,28 +12,23 @@ body{
 
 /* COMIENZA INDEX / NAV / FOOTER */
 
-.NAV_PADRE{
-    position: relative;
-}
+/*COMIENZA VIDEO*/
 
-#video_background {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1000;
-    overflow: hidden;
-}
+@import "./PartesCSS/NAV";
 
-//COMIENZO SASS
+/* TERMINA VIDEO */
+
+/* COMIENZA NOSOTROS */
 
 @import "./PartesCSS/NOS";
 
+/* TERMINA NOSOTROS */
 
-//TERMINA SASS
+/*COMIENZA BOOTSTRAP CAROUSEL*/
+
+@import "./PartesCSS/CAROUSEL";
+
+/*TERMINA BOOTSTRAP CAROUSEL*/
 
 .logo__nav{
     height: 75px;
@@ -139,7 +134,7 @@ body{
 }
 
 .navbar{
-    margin: 15px auto;
+    margin: 0px auto;
 }
 
 .footer {
@@ -453,43 +448,6 @@ input{
 
 /*TERMINA CONTACTO*/
 
-/*COMIENZA BOOTSTRAP*/
-
-.slide{
-    top: 35px;
-}
-
-.slide img{
-    height: 100vh;
-}
-
-.carousel-control-prev{
-    top:10px;
-}
-
-.carousel-control-prev-icon{
-    height: 4rem;
-    width: 4rem;
-    
-}
-
-.carousel-control-next{
-    top:10px;
-}
-
-.carousel-control-next-icon{
-    height: 4rem;
-    width: 4rem;
-}
-
-#carouselExampleControls{
-    margin: auto 120px;
-}
-
-.carousel-inner{
-    border-radius: 50px;
-}
-
 .card-boot2{
     margin: 35px 80px;
 
@@ -513,7 +471,7 @@ h5{
 }    
 
 
-/*TERMINA BOOTSTRAP*/
+
 
 @media screen and (max-width: 1024px){
     
@@ -558,10 +516,8 @@ h5{
     } 
 
     #carouselExampleControls{
-        margin: auto;
+        margin: auto 100px;
     }
-
-    
 
     .img_prox2{
         padding: 3px;
@@ -609,6 +565,7 @@ h5{
 
     .slide img{
             height: 70vh;
+            width: 100vw;
         }
         
     .carousel-control-prev{
@@ -626,11 +583,15 @@ h5{
     h5{
         font-size: 25px;
     }    
+
+    #carouselExampleControls{
+        margin: auto 40px;
+    }
 }
 
 @media screen and (max-width: 653px){
 
-    .p__nosotros{
+    .NOS__nosotros{
         text-align: center;
         font-size: 20px;
         font-family: 'Gogh', sans-serif;
@@ -714,5 +675,7 @@ h5{
         font-size: 18px;
     }   
 
-
+    .carousel #carouselExampleControls {
+        margin: auto 23px;
+    }
 }    
