@@ -48,6 +48,12 @@ body {
   margin: 0px auto;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  margin-top: 60px;
+}
+
 .NOS_NOSOTROS {
   border-top: 2px solid #05228b;
   border-bottom: 2px solid #05228b;
@@ -129,6 +135,9 @@ body {
   letter-spacing: 2px;
   color: whitesmoke;
   font-weight: 600;
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  margin-top: 60px;
 }
 
 .HERO__cta {
@@ -180,33 +189,15 @@ body {
 }
 
 /*TERMINA CATALOGO*/
-/*COMIENZA FOOTER*/
-.FOOTER {
-  position: relative;
-  bottom: -150px;
-  width: auto;
-  background-color: #d6d0c8;
-}
-
-.FOOTER__logo {
-  display: block;
-  margin: 0px auto;
-  width: 50px;
-}
-
-.FOOTER__texto {
-  text-align: center;
-  font-family: 'Concert One', cursive;
-  font-size: 15px;
-  padding: 5px;
-}
-
-/*TERMINA FOOTER*/
 /*EMPIEZA REPARACION*/
 #h1_repa {
   color: white;
   letter-spacing: 10px;
   font-size: 40px;
+  margin: 15px;
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  margin-top: 60px;
 }
 
 .img_prox2 {
@@ -232,7 +223,7 @@ body {
   flex-direction: column;
 }
 
-.hoverreparacion:hover {
+.img_prox2 .hoverreparacion:hover {
   color: #e3e3a8;
   transform: scale(1.1);
 }
@@ -243,7 +234,7 @@ body {
   margin-top: 90px;
 }
 
-.contactolink {
+.contactolink2_2 {
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -254,7 +245,7 @@ body {
   transition-duration: 0.3s;
 }
 
-.contactolink:before {
+.contactolink2_2:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -272,15 +263,15 @@ body {
   padding: 0;
 }
 
-.contactolink:hover, .contactolink:focus, .contactolink:active {
+.contactolink2_2:hover, .contactolink2 .contactolink:focus, .contactolink2 .contactolink:active {
   color: white;
 }
 
-.contactolink:hover:before, .contactolink:focus:before, .contactolink:active:before {
+.contactolink2_2:hover:before, .contactolink2 .contactolink:focus:before, .contactolink2 .contactolink:active:before {
   transform: scaleX(0);
 }
 
-.contactolink {
+.contactolink2_2 {
   text-align: center;
   color: #f1f2ec;
   font-size: 30px;
@@ -292,19 +283,6 @@ body {
   font-family: 'Concert One', cursive;
 }
 
-h1 {
-  text-align: center;
-  font-family: 'Concert One', cursive;
-  margin-top: 60px;
-}
-
-#h1_repa {
-  color: white;
-  letter-spacing: 10px;
-  font-size: 40px;
-  margin: 15px;
-}
-
 .img__reparacion {
   display: grid;
   grid-template-columns: repeat(2, 400px);
@@ -314,13 +292,13 @@ h1 {
   grid-auto-rows: 400px;
 }
 
-.img__repa {
+.img__reparacion-foto {
   width: 100%;
   height: 100%;
   border-radius: 30px;
 }
 
-.img__repa {
+.img__reparacion-foto {
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -330,11 +308,33 @@ h1 {
   transition-timing-function: ease-out;
 }
 
-.img__repa:hover, .img__repa:focus, .img__repa:active {
+.img__reparacion-foto:hover, .img__reparacion-foto:focus, .img__reparacion-foto:active {
   transform: translateY(8px);
 }
 
 /*TERMINA REPARACION*/
+/*COMIENZA FOOTER*/
+.FOOTER {
+  position: relative;
+  bottom: -150px;
+  width: auto;
+  background-color: #d6d0c8;
+}
+
+.FOOTER__logo {
+  display: block;
+  margin: 0px auto;
+  width: 50px;
+}
+
+.FOOTER__texto {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/*TERMINA FOOTER*/
 /*EMPIEZA CONTACTO*/
 .contacto__gradiente {
   background: #271c18;
