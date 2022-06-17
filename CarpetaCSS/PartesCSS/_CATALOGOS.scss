@@ -1,0 +1,21 @@
+@import "../Variables";
+
+.header__gradiente{
+    background: rgb(39,28,24);
+    background: radial-gradient(circle, rgba(39,28,24,1) 0%, rgba(32,41,210,0.8183648459383753) 85%);
+}
+
+.collection {
+    width: 52%;
+    margin:25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+
+    .btn-primary:hover{
+        transform:translateX(15px);
+        transition: .3s;
+     }
+
+}
