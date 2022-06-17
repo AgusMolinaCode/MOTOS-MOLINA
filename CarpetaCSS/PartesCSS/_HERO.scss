@@ -1,0 +1,57 @@
+@import"../Variables";
+
+.HERO{
+    grid-area: content;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 180px;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto;
+    overflow: hidden;
+
+    &__texts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title{
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+
+    &__cta{
+        text-decoration: none;
+        color:white;
+        padding: 10px;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 10px;
+        border: 2px solid rgb(54, 68, 171);
+        border-radius: 6px;
+        display: inline-block;
+        font-weight: 500;
+        transition: background-color .3s;
+        text-align: center;
+        font-family: 'Concert One', cursive;
+        
+        
+    }
+    
+    &__cta:hover{
+        background-color: rgb(155, 175, 212);
+        color: #010219;
+        transform:translateX(10px);
+        transition: .6s;
+    
+    }
+
+    &__img{
+        width: 100%;
+    }
+
+}

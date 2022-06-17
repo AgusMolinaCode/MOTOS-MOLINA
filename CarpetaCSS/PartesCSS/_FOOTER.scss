@@ -1,0 +1,24 @@
+@import "../Variables";
+
+.FOOTER{
+    position: relative;
+    bottom: -150px;
+    width: auto;
+    background-color:rgb(214, 208, 200);
+
+
+    &__logo{
+        display: block;
+        margin: 0px auto;
+        width: 50px;
+    }
+    
+    &__texto{
+        text-align: center;
+        font-family: 'Concert One', cursive;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+}
+
