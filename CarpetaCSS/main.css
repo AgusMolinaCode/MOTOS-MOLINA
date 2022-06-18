@@ -78,6 +78,16 @@ h1 {
   margin-right: 150px;
 }
 
+@media screen and (max-width: 653px) {
+  .NOS__nosotros {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gogh', sans-serif;
+    margin: 20px auto;
+    width: 298px;
+  }
+}
+
 .slide {
   top: 30px;
 }
@@ -125,6 +135,21 @@ h1 {
   overflow: hidden;
 }
 
+@media screen and (max-width: 833px) {
+  .HERO {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+  }
+  .HERO__picture {
+    grid-row: 1/2;
+  }
+  .HERO__img {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .HERO__texts {
   display: flex;
   flex-direction: column;
@@ -167,6 +192,28 @@ h1 {
   width: 100%;
 }
 
+@media screen and (max-width: 833px) {
+  .slide img {
+    height: 70vh;
+    width: 100vw;
+  }
+  .carousel-control-prev {
+    top: 10px;
+  }
+  .carousel-control-next {
+    top: 10px;
+  }
+  .form-control {
+    width: 65%;
+  }
+  h5 {
+    font-size: 25px;
+  }
+  #carouselExampleControls {
+    margin: auto 40px;
+  }
+}
+
 /*TERMINA INDEX*/
 /*COMIENZA CATALOGO*/
 .header__gradiente {
@@ -200,6 +247,12 @@ h1 {
   margin-top: 60px;
 }
 
+@media screen and (max-width: 653px) {
+  #h1_repa {
+    font-size: 35px;
+  }
+}
+
 .img_prox2 {
   display: grid;
   grid-area: content;
@@ -208,6 +261,21 @@ h1 {
   align-items: center;
   padding: 120px;
   justify-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .img_prox2 {
+    padding: 3px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+  }
+  .img_prox2 img {
+    width: 70%;
+  }
+  .img_prox2 p {
+    text-align: center;
+    font-size: 23px;
+  }
 }
 
 .img_prox2 img {
@@ -292,6 +360,15 @@ h1 {
   grid-auto-rows: 400px;
 }
 
+@media screen and (max-width: 1024px) {
+  .img__reparacion {
+    grid-template-columns: repeat(1, 400px);
+    padding-left: 95px;
+    padding-right: 95px;
+    margin-top: 60px;
+  }
+}
+
 .img__reparacion-foto {
   width: 100%;
   height: 100%;
@@ -313,42 +390,13 @@ h1 {
 }
 
 /*TERMINA REPARACION*/
-/*COMIENZA FOOTER*/
-.FOOTER {
-  position: relative;
-  bottom: -150px;
-  width: auto;
-  background-color: #d6d0c8;
-}
-
-.FOOTER__logo {
-  display: block;
-  margin: 0px auto;
-  width: 50px;
-}
-
-.FOOTER__texto {
-  text-align: center;
-  font-family: 'Concert One', cursive;
-  font-size: 15px;
-  padding: 5px;
-}
-
-/*TERMINA FOOTER*/
 /*EMPIEZA CONTACTO*/
 .contacto__gradiente {
   background: #271c18;
   background: radial-gradient(circle, #271c18 0%, rgba(32, 41, 210, 0.818365) 85%);
 }
 
-h3 {
-  text-align: center;
-  font-family: 'Concert One', cursive;
-  padding: 16px;
-  font-size: 25px;
-}
-
-.form__contacto {
+.form {
   display: grid;
   justify-content: center;
   align-content: center;
@@ -358,20 +406,35 @@ h3 {
   border-radius: 20px;
 }
 
-.label__contacto {
-  padding: 7px;
-  margin: 0 auto;
+.form__h1 {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  margin-top: 60px;
+  font-size: 38px;
 }
 
-.label__contacto1 {
+.form__h4 {
+  font-size: 15px;
+}
+
+.form-control {
+  width: 95%;
+  margin-left: 12px;
+}
+
+.form__contacto1 {
   display: grid;
   margin: 0 auto;
 }
 
-h4 {
+.form h4 {
   text-align: center;
   padding: 7px;
   font-family: 'Concert One', cursive;
+}
+
+label {
+  display: none;
 }
 
 textarea {
@@ -383,9 +446,10 @@ textarea {
   border-width: 2px;
   border-color: 2px solid #27439f;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-bottom: 20px;
   padding-top: 15px;
+  text-align: center;
 }
 
 input {
@@ -413,7 +477,6 @@ input {
   border-style: solid;
   border-radius: 10px;
   width: 300px;
-  cursor: pointer;
   font-family: 'Concert One', cursive;
 }
 
@@ -424,159 +487,48 @@ input {
   text-align: center;
 }
 
-.form__h1 {
-  text-align: center;
-  font-family: 'Concert One', cursive;
-  margin-top: 60px;
-  font-size: 38px;
-}
-
-.form__h4 {
-  font-size: 15px;
-}
-
-.form-control {
-  width: 95%;
-}
-
 /*TERMINA CONTACTO*/
-.card-boot2 {
-  margin: 35px 80px;
-}
-
+/*EMPIEZA NOVEDADES*/
 .card-boot1 {
-  margin: 10px 30px;
-}
-
-.card {
+  margin: 20px 90px;
   background-color: #d0ebbc;
 }
 
-h5 {
-  font-size: 35px;
+.row {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
 }
 
-.card-img-overlay {
-  top: -13px;
-  left: -12px;
+.row .card {
+  border-width: 12px;
+  border-color: #d0ebbc;
 }
 
-@media screen and (max-width: 1024px) {
-  .main__imagen {
-    width: 300px;
-    align-items: center;
-  }
-  .tutorep {
-    margin: 2px;
-  }
-  .video__resp {
-    overflow: hidden;
-    padding-bottom: 400px;
-    position: relative;
-    height: 0;
-  }
-  .video__resp iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
-  .imagenes__taller {
-    display: grid;
-    grid-template-columns: 400px;
-  }
-  .index__galeria {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 317px;
-    grid-gap: 6px;
-    margin-top: 40px;
-    margin-left: 45px;
-    margin-right: 45px;
-  }
-  #carouselExampleControls {
-    margin: auto 100px;
-  }
-  .img_prox2 {
-    padding: 3px;
-    grid-template-columns: 1fr;
-    margin-top: 15px;
-  }
-  .img_prox2 img {
-    width: 70%;
-  }
-  .img_prox2 p {
-    text-align: center;
-    font-size: 23px;
-  }
-  .img__reparacion {
-    grid-template-columns: repeat(1, 400px);
-    padding-left: 95px;
-    padding-right: 95px;
-    margin-top: 60px;
-  }
+/*TERMINA NOVEDADES*/
+/*COMIENZA FOOTER*/
+.FOOTER {
+  position: relative;
+  bottom: -150px;
+  width: auto;
+  background-color: #d6d0c8;
 }
 
-@media screen and (max-width: 833px) {
-  .hero__main {
-    grid-template-columns: 1fr;
-    grid-template-rows: max-content max-content;
-  }
-  .HERO__picture {
-    grid-row: 1/2;
-  }
-  .hero__img {
-    max-width: 500px;
-    display: block;
-    margin: 0 auto;
-  }
-  .slide img {
-    height: 70vh;
-    width: 100vw;
-  }
-  .carousel-control-prev {
-    top: 10px;
-  }
-  .carousel-control-next {
-    top: 10px;
-  }
-  .form-control {
-    width: 65%;
-  }
-  h5 {
-    font-size: 25px;
-  }
-  #carouselExampleControls {
-    margin: auto 40px;
-  }
+.FOOTER__logo {
+  display: block;
+  margin: 0px auto;
+  width: 50px;
 }
 
+.FOOTER__texto {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/*TERMINA FOOTER*/
 @media screen and (max-width: 653px) {
-  .NOS__nosotros {
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Gogh', sans-serif;
-    margin: 20px auto;
-    width: 298px;
-  }
-  .index__galeria {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 317px;
-    grid-gap: 6px;
-    margin-top: 40px;
-    margin-left: 45px;
-    margin-right: 45px;
-  }
-  .contactolink {
-    text-align: center;
-    color: #f1f2ec;
-    font-size: 20px;
-  }
-  #h1_repa {
-    font-size: 25px;
-  }
   .form__contacto {
     width: 335px;
   }

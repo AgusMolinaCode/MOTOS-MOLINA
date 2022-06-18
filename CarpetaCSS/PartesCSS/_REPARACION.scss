@@ -8,6 +8,12 @@
     text-align: center;
     font-family: 'Concert One', cursive;
     margin-top: 60px;
+
+    @media screen and (max-width: 653px){
+        &{  
+        font-size: 35px;
+        }
+    }
 }
 
 .img_prox2{
@@ -18,6 +24,18 @@
     align-items: center;
     padding: 120px;
     justify-items: center;
+    @media screen and (max-width: 1024px){
+        padding: 3px;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 15px;
+		img {
+			width: 70%;
+		}
+		p {
+			text-align: center;
+			font-size: 23px;
+		}
+    }
 
     & img{
         width: 80%;
@@ -112,6 +130,14 @@
     gap: 80px;
     justify-content: center;
     grid-auto-rows: 400px;
+
+    @media screen and (max-width: 1024px){
+            grid-template-columns: repeat(1, 400px);
+            padding-left: 95px;
+            padding-right: 95px;
+            margin-top: 60px;
+        }
+
 
 
 &-foto{
