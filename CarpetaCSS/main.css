@@ -11,6 +11,10 @@ body {
 }
 
 /*COMIENZA INDEX*/
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
+}
+
 .NAV_PADRE {
   position: relative;
 }
@@ -46,6 +50,10 @@ body {
 
 .navbar {
   margin: 0px auto;
+}
+
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
 }
 
 h1 {
@@ -86,6 +94,10 @@ h1 {
     margin: 20px auto;
     width: 298px;
   }
+}
+
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
 }
 
 .slide {
@@ -144,6 +156,10 @@ h1 {
   .carousel h5 {
     font-size: 25px;
   }
+}
+
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
 }
 
 .HERO {
@@ -218,6 +234,10 @@ h1 {
 
 /*TERMINA INDEX*/
 /*COMIENZA CATALOGO*/
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
+}
+
 .header__gradiente {
   background: #271c18;
   background: radial-gradient(circle, #271c18 0%, rgba(32, 41, 210, 0.818365) 85%);
@@ -246,6 +266,10 @@ h1 {
 
 /*TERMINA CATALOGO*/
 /*EMPIEZA REPARACION*/
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
+}
+
 #h1_repa {
   color: white;
   letter-spacing: 10px;
@@ -430,6 +454,10 @@ h1 {
 
 /*TERMINA REPARACION*/
 /*EMPIEZA CONTACTO*/
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
+}
+
 .contacto__gradiente {
   background: #271c18;
   background: radial-gradient(circle, #271c18 0%, rgba(32, 41, 210, 0.818365) 85%);
@@ -577,6 +605,10 @@ input {
 
 /*TERMINA CONTACTO*/
 /*EMPIEZA NOVEDADES*/
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
+}
+
 .card-boot1 {
   margin: 20px 10px;
   background-color: #d0ebbc;
@@ -599,6 +631,10 @@ h5, p, a {
 
 /*TERMINA NOVEDADES*/
 /*COMIENZA FOOTER*/
+.extend, .card-boot1, h5, p, a {
+  color: #d612f0;
+}
+
 .FOOTER {
   position: relative;
   bottom: -150px;
