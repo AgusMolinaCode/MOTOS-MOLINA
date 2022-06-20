@@ -34,56 +34,5 @@ body{
 /*TERMINA NOVEDADES*/ 
 
 /*COMIENZA FOOTER*/
-@import "./PartesCSS/FOOTER";
+@import "./PartesCSS/FOOTER"; //mismo footer para todas las secciones
 /*TERMINA FOOTER*/
-
-@media screen and (max-width: 653px) {
-	
-	
-	
-	
-    
-    
-    
-    
-    
-    
-    
-    
-	
-	
-	
-	
-	
-	
-	
-    
-    
-    
-    
-    
-    
-    
-    
-    .slide {
-		img {
-			height: 45vh;
-		}
-	}
-	.carousel-control-prev {
-		top: 10px;
-	}
-	.carousel-control-next {
-		top: 10px;
-	}
-	
-	h5 {
-		font-size: 18px;
-	}
-	.carousel {
-		#carouselExampleControls {
-			margin: auto 23px;
-		}
-	}
-}
-    

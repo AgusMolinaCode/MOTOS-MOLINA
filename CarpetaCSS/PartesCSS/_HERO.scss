@@ -76,27 +76,3 @@
 
 }
 
-@media screen and (max-width: 833px) {
-	
-    .slide {
-		img {
-			height: 70vh;
-			width: 100vw;
-		}
-	}
-	.carousel-control-prev {
-		top: 10px;
-	}
-	.carousel-control-next {
-		top: 10px;
-	}
-	.form-control {
-		width: 65%;
-	}
-	h5 {
-		font-size: 25px;
-	}
-	#carouselExampleControls {
-		margin: auto 40px;
-	}
-}

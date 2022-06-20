@@ -96,6 +96,12 @@ h1 {
   height: 100vh;
 }
 
+@media screen and (max-width: 833px) {
+  .slide img {
+    height: 50vh;
+  }
+}
+
 .carousel-control-prev {
   top: 10px;
 }
@@ -120,6 +126,24 @@ h1 {
 
 .carousel-inner {
   border-radius: 50px;
+}
+
+@media screen and (max-width: 653px) {
+  .carousel .form-control {
+    width: 65%;
+  }
+  .carousel-control-prev {
+    top: 10px;
+  }
+  .carousel-control-next {
+    top: 10px;
+  }
+  .carousel #carouselExampleControls {
+    margin: auto 10px;
+  }
+  .carousel h5 {
+    font-size: 25px;
+  }
 }
 
 .HERO {
@@ -192,28 +216,6 @@ h1 {
   width: 100%;
 }
 
-@media screen and (max-width: 833px) {
-  .slide img {
-    height: 70vh;
-    width: 100vw;
-  }
-  .carousel-control-prev {
-    top: 10px;
-  }
-  .carousel-control-next {
-    top: 10px;
-  }
-  .form-control {
-    width: 65%;
-  }
-  h5 {
-    font-size: 25px;
-  }
-  #carouselExampleControls {
-    margin: auto 40px;
-  }
-}
-
 /*TERMINA INDEX*/
 /*COMIENZA CATALOGO*/
 .header__gradiente {
@@ -222,12 +224,19 @@ h1 {
 }
 
 .collection {
-  width: 52%;
+  width: 50%;
   margin: 25px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 15px;
+}
+
+@media screen and (max-width: 560px) {
+  .collection {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 .collection .btn-primary:hover {
@@ -253,47 +262,53 @@ h1 {
   }
 }
 
+@media screen and (max-width: 653px) {
+  #h1_repa {
+    font-size: 22px;
+  }
+}
+
 .img_prox2 {
-  display: grid;
-  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
   gap: 25px;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 120px;
-  justify-items: center;
 }
 
 @media screen and (max-width: 1024px) {
   .img_prox2 {
-    padding: 3px;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 15px;
-  }
-  .img_prox2 img {
-    width: 70%;
+    margin: auto;
   }
   .img_prox2 p {
     text-align: center;
     font-size: 23px;
   }
+  .img_prox2 img {
+    width: 70%;
+  }
 }
 
 .img_prox2 img {
-  width: 80%;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
-.img_prox2 p {
+.img_prox2 .HR {
+  width: 600px;
   font-size: 30px;
   color: white;
   font-family: 'Concert One', cursive;
-  display: flex;
-  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin: auto;
 }
 
-.img_prox2 .hoverreparacion:hover {
-  color: #e3e3a8;
+.img_prox2 .HR p:hover {
   transform: scale(1.1);
+  color: #ecf190;
+  transition: 0.5s;
 }
 
 .contactolink2 {
@@ -351,6 +366,14 @@ h1 {
   font-family: 'Concert One', cursive;
 }
 
+@media screen and (max-width: 500px) {
+  .contactolink2_2 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .img__reparacion {
   display: grid;
   grid-template-columns: repeat(2, 400px);
@@ -369,10 +392,26 @@ h1 {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .img__reparacion {
+    grid-template-columns: repeat(1, 300px);
+    padding-left: 1;
+    padding-right: 100px;
+    margin-top: 60px;
+  }
+}
+
 .img__reparacion-foto {
   width: 100%;
   height: 100%;
   border-radius: 30px;
+}
+
+@media screen and (max-width: 340px) {
+  .img__reparacion-foto {
+    width: 90%;
+    height: 90%;
+  }
 }
 
 .img__reparacion-foto {
@@ -538,13 +577,13 @@ input {
 /*TERMINA CONTACTO*/
 /*EMPIEZA NOVEDADES*/
 .card-boot1 {
-  margin: 20px 90px;
+  margin: 20px 10px;
   background-color: #d0ebbc;
 }
 
 .row {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 25px;
 }
 
@@ -576,21 +615,4 @@ input {
 }
 
 /*TERMINA FOOTER*/
-@media screen and (max-width: 653px) {
-  .slide img {
-    height: 45vh;
-  }
-  .carousel-control-prev {
-    top: 10px;
-  }
-  .carousel-control-next {
-    top: 10px;
-  }
-  h5 {
-    font-size: 18px;
-  }
-  .carousel #carouselExampleControls {
-    margin: auto 23px;
-  }
-}
 /*# sourceMappingURL=main.css.map */

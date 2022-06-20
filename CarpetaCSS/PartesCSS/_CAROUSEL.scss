@@ -6,7 +6,13 @@
 
 .slide img{
     height: $H100;
-}
+
+    @media screen and (max-width: 833px){
+        &{
+        height: $H50;
+        }
+    }
+}  
 
 .carousel{
 
@@ -37,4 +43,30 @@
         border-radius: 50px;
     }
 
+    @media screen and (max-width: 653px) {
+        .form-control {
+            width: 65%;
+        }       
+        
+        &-control-prev {
+            top: 10px;
+        }
+        &-control-next {
+            top: 10px;
+        }
+        
+        #carouselExampleControls {
+            margin: auto 10px;
+        }
+
+        h5 {
+            font-size: 25px;
+        }
+    }
 }
+
+
+
+
+
+

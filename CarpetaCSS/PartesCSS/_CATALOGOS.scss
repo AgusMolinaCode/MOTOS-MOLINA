@@ -6,12 +6,19 @@
 }
 
 .collection {
-    width: 52%;
+    width: 50%;
     margin:25px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 15px;
+
+    @media screen and (max-width: 560px){
+        & {
+            width: 100%;
+            margin: auto;
+        }
+    }
 
     .btn-primary:hover{
         transform:translateX(15px);
