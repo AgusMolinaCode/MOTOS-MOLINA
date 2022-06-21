@@ -85,10 +85,7 @@ label{
 }
 
 textarea{
-    background-color: #fbfbfb; 
-    width: 407px; 
-    height: 150px; 
-    border-radius: 5px;  
+    @include Contacto (white,408px,150px,10px);  
     border-style: solid; 
     border-width: 2px; 
     border-color: 2px solid #27439f; 
@@ -106,13 +103,8 @@ textarea{
     }
 }
 
-
-
 input{
-    background-color: #fbfbfb; 
-    width: 408px; 
-    height: 40px; 
-    border-radius: 5px;  
+    @include Contacto (#fbfbfb,408px,40px,5px);  
     border-style: solid; 
     border-width: 2px; 
     border-color: 2px solid #27439f; 
@@ -122,17 +114,14 @@ input{
 } 
 
 #button1{
-    height: 30px; 
+    @include Contacto (#b2a6f5,300px,30px,20px);
     padding-left: 5px;
     padding-right: 5px;   
     margin-bottom: 20px; 
     margin-top: 10px; 
     margin-left: 65px;  
-    background-color: #b2a6f5; 
     border-color: #3c42af; 
-    border-style: solid; 
-    border-radius: 10px;  
-    width: 300px;   
+    border-style: solid;     
     font-family: 'Concert One', cursive;
 
     @media screen and (max-width: 653px){

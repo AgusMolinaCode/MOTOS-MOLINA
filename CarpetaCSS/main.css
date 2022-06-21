@@ -11,8 +11,9 @@ body {
 }
 
 /*COMIENZA INDEX*/
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .NAV_PADRE {
@@ -52,8 +53,9 @@ body {
   margin: 0px auto;
 }
 
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -96,8 +98,9 @@ h1 {
   }
 }
 
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .slide {
@@ -158,8 +161,9 @@ h1 {
   }
 }
 
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .HERO {
@@ -234,8 +238,9 @@ h1 {
 
 /*TERMINA INDEX*/
 /*COMIENZA CATALOGO*/
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header__gradiente {
@@ -246,8 +251,6 @@ h1 {
 .collection {
   width: 50%;
   margin: 25px auto;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   gap: 15px;
 }
@@ -266,8 +269,9 @@ h1 {
 
 /*TERMINA CATALOGO*/
 /*EMPIEZA REPARACION*/
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #h1_repa {
@@ -293,8 +297,6 @@ h1 {
 }
 
 .img_prox2 {
-  display: flex;
-  flex-wrap: wrap;
   gap: 25px;
   align-items: center;
 }
@@ -454,8 +456,9 @@ h1 {
 
 /*TERMINA REPARACION*/
 /*EMPIEZA CONTACTO*/
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contacto__gradiente {
@@ -540,10 +543,10 @@ label {
 }
 
 textarea {
-  background-color: #fbfbfb;
-  width: 407px;
+  background-color: white;
+  width: 408px;
   height: 150px;
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: solid;
   border-width: 2px;
   border-color: 2px solid #27439f;
@@ -575,17 +578,17 @@ input {
 }
 
 #button1 {
+  background-color: #b2a6f5;
+  width: 300px;
   height: 30px;
+  border-radius: 20px;
   padding-left: 5px;
   padding-right: 5px;
   margin-bottom: 20px;
   margin-top: 10px;
   margin-left: 65px;
-  background-color: #b2a6f5;
   border-color: #3c42af;
   border-style: solid;
-  border-radius: 10px;
-  width: 300px;
   font-family: 'Concert One', cursive;
 }
 
@@ -605,8 +608,9 @@ input {
 
 /*TERMINA CONTACTO*/
 /*EMPIEZA NOVEDADES*/
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card-boot1 {
@@ -631,8 +635,9 @@ h5, p, a {
 
 /*TERMINA NOVEDADES*/
 /*COMIENZA FOOTER*/
-.extend, .card-boot1, h5, p, a {
-  color: #d612f0;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .FOOTER {

@@ -24,11 +24,9 @@
     }
 
 .img_prox2{
-    display: flex;
-    flex-wrap: wrap;
+    @extend .flex;
     gap: 25px;
     align-items: center;
-   
     
     @media screen and (max-width: 1024px){
 		margin: auto;

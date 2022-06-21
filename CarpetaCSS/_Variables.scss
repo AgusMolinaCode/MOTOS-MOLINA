@@ -1,3 +1,4 @@
+//VARIABLES
 $pad: 8px;
 $sol: solid;
 $tran: 0.5s;
@@ -8,6 +9,16 @@ $H100: 100vh;
 $H4r: 4rem; 
 $H50: 50vh;
 
-.extend{
-    color: rgb(214, 18, 240);
+//EXTEND
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+//MIXIN en seccion Contacto.
+@mixin Contacto ($fondo,$ancho,$alto,$borde){
+    background-color: $fondo; 
+    width: $ancho; 
+    height: $alto; 
+    border-radius: $borde;  
 }
