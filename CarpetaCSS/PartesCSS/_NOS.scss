@@ -9,8 +9,8 @@ h1{
 .NOS{
 
     &_NOSOTROS{
-        border-top: 2px solid rgb(5, 34, 139);
-        border-bottom: 2px solid rgb(5, 34, 139);
+        border-top: 2px solid map-get($map:$colores , $key:"blue" );
+        border-bottom: 2px solid map-get($map: $colores, $key:"blue" );
         text-align: center;
         padding: 8px;
         transition: 1.2s;

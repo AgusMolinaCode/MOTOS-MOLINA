@@ -30,7 +30,7 @@
 
 .nav-link{
     text-decoration: none;
-    color:white;
+    color:map-get($map: $colores, $key:"blanco" );
     font-family: 'Concert One', cursive;
     font-size: 28px;
 }

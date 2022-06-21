@@ -1,7 +1,7 @@
 @import "../Variables";
 
 .contacto__gradiente{
-    background: rgb(39,28,24);
+    background: map-get($map: $colores, $key:"gradiente");
     background: radial-gradient(circle, rgba(39,28,24,1) 0%, rgba(32,41,210,0.8183648459383753) 85%);
 }
 
@@ -85,10 +85,10 @@ label{
 }
 
 textarea{
-    @include Contacto (white,408px,150px,10px);  
+    @include Contacto (map-get($map: $colores, $key:"blanco"),408px,150px,10px);  
     border-style: solid; 
     border-width: 2px; 
-    border-color: 2px solid #27439f; 
+    border-color: 2px solid map-get($map: $colores, $key:"blue"); 
     margin-top: 10px;  
     margin-left: 15px;
     margin-bottom: 20px; 
@@ -104,10 +104,10 @@ textarea{
 }
 
 input{
-    @include Contacto (#fbfbfb,408px,40px,5px);  
+    @include Contacto (map-get($map: $colores, $key:"blanco"),408px,40px,5px);  
     border-style: solid; 
     border-width: 2px; 
-    border-color: 2px solid #27439f; 
+    border-color: 2px solid map-get($map: $colores, $key:"blue"); 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
@@ -120,7 +120,7 @@ input{
     margin-bottom: 20px; 
     margin-top: 10px; 
     margin-left: 65px;  
-    border-color: #3c42af; 
+    border-color: map-get($map: $colores, $key:"blue"); 
     border-style: solid;     
     font-family: 'Concert One', cursive;
 

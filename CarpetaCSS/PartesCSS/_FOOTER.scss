@@ -4,7 +4,7 @@
     position: relative;
     bottom: -150px;
     width: auto;
-    background-color:rgb(214, 208, 200);
+    background-color:map-get($map: $colores, $key:"footer" );
 
 
     &__logo{

@@ -1,7 +1,7 @@
 @import "../Variables";
 
 #h1_repa{
-    color: rgb(255, 255, 255);
+    color: map-get($map: $colores, $key:"blanco");
     letter-spacing: 10px;
     font-size: 40px;
     margin: 15px;
@@ -50,7 +50,7 @@
     .HR{
         width: 600px;
         font-size: 30px; 
-        color: white;
+        color: map-get($map: $colores, $key:"blanco" );
         font-family: 'Concert One', cursive;
         gap: 10px;
         text-align: center;
