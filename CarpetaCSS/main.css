@@ -58,7 +58,13 @@ body {
   flex-wrap: wrap;
 }
 
-h1 {
+.HERO__title {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  margin-top: 60px;
+}
+
+.NOS h1 {
   text-align: center;
   font-family: 'Concert One', cursive;
   margin-top: 60px;
@@ -265,6 +271,31 @@ h1 {
 .collection .btn-primary:hover {
   transform: translateX(15px);
   transition: .3s;
+}
+
+.Titulo {
+  margin: 25px auto;
+  background-color: rgba(239, 247, 247, 0.912);
+  width: 450px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 470px) {
+  .Titulo {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .Titulo {
+    width: 300px;
+  }
+}
+
+.Titulo h4, .Titulo h1 {
+  text-align: center;
+  font-family: 'Concert One', cursive;
 }
 
 /*TERMINA CATALOGO*/
@@ -614,14 +645,12 @@ input {
 }
 
 .card-boot1 {
-  margin: 20px 10px;
+  margin: 20px 5px;
   background-color: #d0ebbc;
 }
 
 .row {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 25px;
+  margin: 25px 5px;
 }
 
 .row .card {
@@ -629,11 +658,68 @@ input {
   border-color: #d0ebbc;
 }
 
-h5, p, a {
+.row .card-img-top {
+  padding: 2px;
+}
+
+@media screen and (max-width: 1050px) {
+  .row .card img {
+    height: 500px;
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .row .card img {
+    height: 300px;
+    padding: 2px;
+  }
+}
+
+h1, p, a {
   font-family: 'Concert One', cursive;
 }
 
 /*TERMINA NOVEDADES*/
+/*COMIENZA BOTON WHATSAPP*/
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 48px;
+  right: 10px;
+  padding: 15px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.boton {
+  width: 25px;
+  transition: ease 1s;
+}
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+  }
+}
+
+/*TERMINA BOTON WHATSAPP*/
 /*COMIENZA FOOTER*/
 .flex, .collection, .img_prox2 {
   display: flex;
@@ -650,7 +736,8 @@ h5, p, a {
 .FOOTER__logo {
   display: block;
   margin: 0px auto;
-  width: 50px;
+  width: 70px;
+  padding: 5px;
 }
 
 .FOOTER__texto {

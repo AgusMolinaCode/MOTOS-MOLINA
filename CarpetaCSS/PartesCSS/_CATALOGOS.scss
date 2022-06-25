@@ -25,3 +25,24 @@
      }
 
 }
+
+.Titulo{
+    margin: 25px auto;
+    background-color: rgba(239, 247, 247, 0.912);
+    width: 450px;
+    padding: 10px;
+    border-radius: 25px;
+
+    @media screen and (max-width: 470px){
+        width: 350px;
+    }
+
+    @media screen and (max-width: 360px){
+        width: 300px;
+    }
+
+    h4,h1{
+        text-align: center;
+        font-family: 'Concert One', cursive;
+    }
+}

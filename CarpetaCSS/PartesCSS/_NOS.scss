@@ -1,6 +1,6 @@
 @import"../Variables";
 
-h1{
+.HERO__title{
     text-align: center;
     font-family: 'Concert One', cursive;
     margin-top: 60px;
@@ -8,6 +8,12 @@ h1{
 
 .NOS{
 
+    h1{
+        text-align: center;
+        font-family: 'Concert One', cursive;
+        margin-top: 60px;
+    }
+    
     &_NOSOTROS{
         border-top: 2px solid map-get($map:$colores , $key:"blue" );
         border-bottom: 2px solid map-get($map: $colores, $key:"blue" );
