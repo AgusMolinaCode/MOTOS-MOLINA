@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -431,6 +432,15 @@ body {
   }
 }
 
+.h2-reparaciones {
+  text-align: center;
+  margin-top: 30px;
+  color: bisque;
+  font-family: 'Concert One', cursive;
+  text-decoration: underline whitesmoke;
+  font-size: 45px;
+}
+
 .img__reparacion {
   display: grid;
   grid-template-columns: repeat(2, 400px);
@@ -715,22 +725,29 @@ h1, p, a {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
   }
   100% {
-    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 11px rgba(0, 0, 0, 0);
   }
 }
 
 /*TERMINA BOTON WHATSAPP*/
-
-.navbar-toggler{
-  background-color:rgb(213, 213, 177);
-  border-radius: 50%;
+.flex, .collection, .img_prox2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler {
+  background-size: 125%;
+  border-radius: 50%;
+  background-color: #dfe0ea;
+}
+
+.navbar-toggler-icon {
   width: 28px;
   height: 40px;
-  background-size: 120%;
+  background-image: url(/Assets/icons8-menú-2-100.png);
+  background-size: 150%;
 }
+
 /*COMIENZA FOOTER*/
 .flex, .collection, .img_prox2 {
   display: flex;

@@ -1,0 +1,15 @@
+@import "../Variables";
+
+.navbar-toggler{
+    background-size: 125%;
+    border-radius: 50%;
+    background-color: rgb(223, 224, 234);
+}
+
+.navbar-toggler-icon{
+    width: 28px;
+    height: 40px;
+    background-image:url(/Assets/icons8-menú-2-100.png);
+    background-size: 150%;
+}
+
