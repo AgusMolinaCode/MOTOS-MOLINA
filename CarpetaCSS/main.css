@@ -720,6 +720,17 @@ h1, p, a {
 }
 
 /*TERMINA BOTON WHATSAPP*/
+
+.navbar-toggler{
+  background-color:rgb(213, 213, 177);
+  border-radius: 50%;
+}
+
+.navbar-toggler-icon{
+  width: 28px;
+  height: 40px;
+  background-size: 120%;
+}
 /*COMIENZA FOOTER*/
 .flex, .collection, .img_prox2 {
   display: flex;
