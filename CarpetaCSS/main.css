@@ -213,7 +213,7 @@ body {
   font-weight: 600;
   text-align: center;
   font-family: 'Concert One', cursive;
-  margin-top: 60px;
+  margin-top: 8px;
 }
 
 .HERO__cta {
@@ -656,7 +656,7 @@ input {
 
 .card-boot1 {
   margin: 20px 5px;
-  background-color: #d0ebbc;
+  background-color: #e0e0e9;
 }
 
 .row {
@@ -665,7 +665,7 @@ input {
 
 .row .card {
   border-width: 12px;
-  border-color: #d0ebbc;
+  border-color: #e0e0e9;
 }
 
 .row .card-img-top {
@@ -698,14 +698,14 @@ h1, p, a {
 }
 
 .container-boton {
-  background-color: #2e6329;
+  background-color: #2c8324;
   border: 1px solid #fff;
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 48px;
-  right: 10px;
-  padding: 15px;
+  bottom: 40px;
+  right: 12px;
+  padding: 12px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite;
 }
@@ -716,7 +716,7 @@ h1, p, a {
 }
 
 .boton {
-  width: 25px;
+  width: 30px;
   transition: ease 1s;
 }
 
