@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #f5efe7;
+  background-color: rgb(245, 239, 231);
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
 }
 
 /*COMIENZA INDEX*/
-.flex, .collection, .img_prox2 {
+.flex, .img_prox2, .collection {
   display: flex;
   flex-wrap: wrap;
 }
@@ -46,7 +46,7 @@ body {
 .nav-link {
   text-decoration: none;
   color: white;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   font-size: 28px;
 }
 
@@ -54,58 +54,54 @@ body {
   margin: 0px auto;
 }
 
-.flex, .collection, .img_prox2 {
+.flex, .img_prox2, .collection {
   display: flex;
   flex-wrap: wrap;
 }
 
 .HERO__title {
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-top: 60px;
 }
 
 .NOS h1 {
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-top: 60px;
 }
-
 .NOS_NOSOTROS {
-  border-top: 2px solid #05228b;
-  border-bottom: 2px solid #05228b;
+  border-top: 2px solid rgb(5, 34, 139);
+  border-bottom: 2px solid rgb(5, 34, 139);
   text-align: center;
   padding: 8px;
   transition: 1.2s;
 }
-
 .NOS_NOSOTROS:hover {
   border-radius: 40px;
   padding: 8px;
   border-style: solid;
   transition: 0.5s;
 }
-
 .NOS__nosotros {
   text-align: center;
   font-size: 20px;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-top: 50px;
   margin-left: 150px;
   margin-right: 150px;
 }
-
 @media screen and (max-width: 653px) {
   .NOS__nosotros {
     text-align: center;
     font-size: 20px;
-    font-family: 'Concert One', cursive;
+    font-family: "Concert One", cursive;
     margin: 20px auto;
     width: 298px;
   }
 }
 
-.flex, .collection, .img_prox2 {
+.flex, .img_prox2, .collection {
   display: flex;
   flex-wrap: wrap;
 }
@@ -117,7 +113,6 @@ body {
 .slide img {
   height: 100vh;
 }
-
 @media screen and (max-width: 833px) {
   .slide img {
     height: 50vh;
@@ -127,29 +122,23 @@ body {
 .carousel-control-prev {
   top: 10px;
 }
-
 .carousel-control-prev-icon {
   height: 4rem;
   width: 4rem;
 }
-
 .carousel-control-next {
   top: 10px;
 }
-
 .carousel-control-next-icon {
   height: 4rem;
   width: 4rem;
 }
-
 .carousel #carouselExampleControls {
   margin: auto 150px;
 }
-
 .carousel-inner {
   border-radius: 50px;
 }
-
 @media screen and (max-width: 653px) {
   .carousel .form-control {
     width: 65%;
@@ -168,7 +157,7 @@ body {
   }
 }
 
-.flex, .collection, .img_prox2 {
+.flex, .img_prox2, .collection {
   display: flex;
   flex-wrap: wrap;
 }
@@ -185,7 +174,6 @@ body {
   margin: 10px auto;
   overflow: hidden;
 }
-
 @media screen and (max-width: 833px) {
   .HERO {
     grid-template-columns: 1fr;
@@ -200,22 +188,19 @@ body {
     margin: 0 auto;
   }
 }
-
 .HERO__texts {
   display: flex;
   flex-direction: column;
 }
-
 .HERO__title {
   font-size: 40px;
   letter-spacing: 2px;
   color: white;
   font-weight: 600;
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-top: 8px;
 }
-
 .HERO__cta {
   text-decoration: none;
   color: white;
@@ -223,36 +208,34 @@ body {
   margin-left: 30%;
   margin-right: 30%;
   margin-top: 10px;
-  border: 2px solid #05228b;
+  border: 2px solid rgb(5, 34, 139);
   border-radius: 6px;
   display: inline-block;
   font-weight: 500;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
-
 .HERO__cta:hover {
-  background-color: #9bafd4;
+  background-color: rgb(155, 175, 212);
   color: white;
   transform: translateX(10px);
-  transition: .6s;
+  transition: 0.6s;
 }
-
 .HERO__img {
   width: 100%;
 }
 
 /*TERMINA INDEX*/
 /*COMIENZA CATALOGO*/
-.flex, .collection, .img_prox2 {
+.flex, .img_prox2, .collection {
   display: flex;
   flex-wrap: wrap;
 }
 
 .header__gradiente {
-  background: #271c18;
-  background: radial-gradient(circle, #271c18 0%, rgba(32, 41, 210, 0.818365) 85%);
+  background: rgb(39, 28, 24);
+  background: radial-gradient(circle, rgb(39, 28, 24) 0%, rgba(32, 41, 210, 0.8183648459) 85%);
 }
 
 .collection {
@@ -261,17 +244,15 @@ body {
   justify-content: space-around;
   gap: 15px;
 }
-
 @media screen and (max-width: 560px) {
   .collection {
     width: 100%;
     margin: auto;
   }
 }
-
 .collection .btn-primary:hover {
   transform: translateX(15px);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .Titulo {
@@ -281,27 +262,24 @@ body {
   padding: 10px;
   border-radius: 25px;
 }
-
 @media screen and (max-width: 470px) {
   .Titulo {
     width: 350px;
   }
 }
-
 @media screen and (max-width: 360px) {
   .Titulo {
     width: 300px;
   }
 }
-
 .Titulo h4, .Titulo h1 {
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
 
 /*TERMINA CATALOGO*/
 /*EMPIEZA REPARACION*/
-.flex, .collection, .img_prox2 {
+.flex, .img_prox2, .collection {
   display: flex;
   flex-wrap: wrap;
 }
@@ -312,16 +290,14 @@ body {
   font-size: 40px;
   margin: 15px;
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-top: 60px;
 }
-
 @media screen and (max-width: 653px) {
   #h1_repa {
     font-size: 35px;
   }
 }
-
 @media screen and (max-width: 653px) {
   #h1_repa {
     font-size: 22px;
@@ -332,7 +308,6 @@ body {
   gap: 25px;
   align-items: center;
 }
-
 @media screen and (max-width: 1024px) {
   .img_prox2 {
     margin: auto;
@@ -345,27 +320,24 @@ body {
     width: 70%;
   }
 }
-
 .img_prox2 img {
   border-radius: 50%;
   display: flex;
   justify-content: center;
   margin: auto;
 }
-
 .img_prox2 .HR {
   width: 600px;
   font-size: 30px;
   color: white;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   gap: 10px;
   text-align: center;
   margin: auto;
 }
-
 .img_prox2 .HR p:hover {
   transform: scale(1.1);
-  color: #ecf190;
+  color: rgb(236, 241, 144);
   transition: 0.5s;
 }
 
@@ -374,18 +346,19 @@ body {
   height: 150px;
   margin-top: 90px;
 }
-
 .contactolink2_2 {
   display: inline-block;
   vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #2098D1;
+  -webkit-transition-property: color;
   transition-property: color;
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
 .contactolink2_2:before {
   content: "";
   position: absolute;
@@ -395,35 +368,37 @@ body {
   left: 0;
   right: 0;
   background: black;
+  -webkit-transform: scaleX(1);
   transform: scaleX(1);
+  -webkit-transform-origin: 50%;
   transform-origin: 50%;
+  -webkit-transition-property: transform;
   transition-property: transform;
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   border-radius: 40px;
   padding: 0;
 }
-
 .contactolink2_2:hover, .contactolink2 .contactolink:focus, .contactolink2 .contactolink:active {
   color: white;
 }
-
 .contactolink2_2:hover:before, .contactolink2 .contactolink:focus:before, .contactolink2 .contactolink:active:before {
+  -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
-
 .contactolink2_2 {
   text-align: center;
-  color: #f1f2ec;
+  color: rgb(241, 242, 236);
   font-size: 30px;
   border: solid coral;
   text-decoration: none;
   border-radius: 40px;
   border-width: 5px;
   padding: 10px;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
-
 @media screen and (max-width: 500px) {
   .contactolink2_2 {
     font-size: 20px;
@@ -436,7 +411,7 @@ body {
   text-align: center;
   margin-top: 30px;
   color: bisque;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   text-decoration: underline whitesmoke;
   font-size: 45px;
 }
@@ -449,7 +424,6 @@ body {
   justify-content: center;
   grid-auto-rows: 400px;
 }
-
 @media screen and (max-width: 1024px) {
   .img__reparacion {
     grid-template-columns: repeat(1, 400px);
@@ -458,7 +432,6 @@ body {
     margin-top: 60px;
   }
 }
-
 @media screen and (max-width: 430px) {
   .img__reparacion {
     grid-template-columns: repeat(1, 300px);
@@ -467,31 +440,32 @@ body {
     margin-top: 60px;
   }
 }
-
 .img__reparacion-foto {
   width: 100%;
   height: 100%;
   border-radius: 30px;
 }
-
 @media screen and (max-width: 340px) {
   .img__reparacion-foto {
     width: 90%;
     height: 90%;
   }
 }
-
 .img__reparacion-foto {
   display: inline-block;
   vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  -webkit-transition-property: transform;
   transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
 .img__reparacion-foto:hover, .img__reparacion-foto:focus, .img__reparacion-foto:active {
+  -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
 
@@ -503,8 +477,8 @@ body {
 }
 
 .contacto__gradiente {
-  background: #271c18;
-  background: radial-gradient(circle, #271c18 0%, rgba(32, 41, 210, 0.818365) 85%);
+  background: rgb(39, 28, 24);
+  background: radial-gradient(circle, rgb(39, 28, 24) 0%, rgba(32, 41, 210, 0.8183648459) 85%);
 }
 
 .form {
@@ -516,67 +490,57 @@ body {
   margin: 50px auto;
   border-radius: 20px;
 }
-
 @media screen and (max-width: 653px) {
   .form {
     width: 318px;
   }
 }
-
 .form__h1 {
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-top: 60px;
   font-size: 38px;
 }
-
 @media screen and (max-width: 653px) {
   .form__h1 {
     text-align: center;
-    font-family: 'Concert One', cursive;
+    font-family: "Concert One", cursive;
     margin-top: 60px;
     font-size: 28px;
   }
 }
-
 .form__h4 {
   font-size: 15px;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
-
 @media screen and (max-width: 653px) {
   .form__h4 {
     font-size: 12px;
   }
 }
-
 .form-control {
   width: 95%;
   margin-left: 12px;
 }
-
 @media screen and (max-width: 653px) {
   .form-control {
     width: 85%;
     margin-left: 29px;
   }
 }
-
 .form__contacto1 {
   display: grid;
   margin: 0 auto;
 }
-
 @media screen and (max-width: 653px) {
   .form__contacto1 {
     width: 235px;
   }
 }
-
 .form h4 {
   text-align: center;
   padding: 7px;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
 
 label {
@@ -590,14 +554,13 @@ textarea {
   border-radius: 10px;
   border-style: solid;
   border-width: 2px;
-  border-color: 2px solid #05228b;
+  border-color: 2px solid rgb(5, 34, 139);
   margin-top: 10px;
   margin-left: 15px;
   margin-bottom: 20px;
   padding-top: 15px;
   text-align: center;
 }
-
 @media screen and (max-width: 653px) {
   textarea {
     width: 310px;
@@ -612,7 +575,7 @@ input {
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;
-  border-color: 2px solid #05228b;
+  border-color: 2px solid rgb(5, 34, 139);
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
@@ -628,11 +591,10 @@ input {
   margin-bottom: 20px;
   margin-top: 10px;
   margin-left: 65px;
-  border-color: #05228b;
+  border-color: rgb(5, 34, 139);
   border-style: solid;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
-
 @media screen and (max-width: 653px) {
   #button1 {
     width: 310px;
@@ -641,7 +603,7 @@ input {
 }
 
 .campos__contacto {
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -662,23 +624,19 @@ input {
 .row {
   margin: 25px 5px;
 }
-
 .row .card {
   border-width: 12px;
   border-color: #e0e0e9;
 }
-
 .row .card-img-top {
   padding: 2px;
 }
-
 @media screen and (max-width: 1050px) {
   .row .card img {
     height: 500px;
     padding: 2px;
   }
 }
-
 @media screen and (max-width: 820px) {
   .row .card img {
     height: 300px;
@@ -687,7 +645,7 @@ input {
 }
 
 h1, p, a {
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
 
 /*TERMINA NOVEDADES*/
@@ -728,7 +686,6 @@ h1, p, a {
     box-shadow: 0 0 0 11px rgba(0, 0, 0, 0);
   }
 }
-
 /*TERMINA BOTON WHATSAPP*/
 .flex, .collection, .img_prox2 {
   display: flex;
@@ -738,7 +695,7 @@ h1, p, a {
 .navbar-toggler {
   background-size: 125%;
   border-radius: 50%;
-  background-color: #dfe0ea;
+  background-color: rgb(223, 224, 234);
 }
 
 .navbar-toggler-icon {
@@ -758,22 +715,19 @@ h1, p, a {
   position: relative;
   bottom: -150px;
   width: auto;
-  background-color: #d6d0c8;
+  background-color: rgb(214, 208, 200);
 }
-
 .FOOTER__logo {
   display: block;
   margin: 0px auto;
   width: 70px;
   padding: 5px;
 }
-
 .FOOTER__texto {
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   font-size: 15px;
   padding: 5px;
 }
 
-/*TERMINA FOOTER*/
-/*# sourceMappingURL=main.css.map */
+/*TERMINA FOOTER*//*# sourceMappingURL=main.css.map */
